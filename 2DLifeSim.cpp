@@ -47,11 +47,24 @@ int main()
 
     //ADDED AFTER INITIAL ASSIGNMENT SUBMISSION!!!!
     int finalTime=10;
+    char choice;
+    int onoff;
     cout<<"Please enter the number of cycles you would like to run: ";
     cin>>finalTime;
     if(finalTime<1)
     {
         finalTime=10;
+    }
+    cout<<"Would you like to manually execute each cycle? (y/n): ";
+    cin>>choice;
+    cout<<endl;
+    if(choice=='y')
+    {
+        onoff=1;
+    }
+    else
+    {
+        onoff=0;
     }
     //ADDED CONTENT ENDS!!!!!!
 
@@ -110,9 +123,12 @@ int main()
         timeCount++;
         cout<<"the number of DoodleBugs is: "<<dooCount<<endl;
         cout<<"the number of Ants is: "<<AntCount<<endl<<endl;
-        cin.ignore();
 
         //ADDED AFTER INITIAL ASSIGNMENT SUBMISSION!!!!
+        if(onoff==1)
+        {
+            cin.ignore();
+        }
         if(timeCount==finalTime)
         {
             return 0;

@@ -9,7 +9,8 @@ NOTE:         SOME CHANGES HAVE SINCE THE ASSIGNMENT TO MAKE THE CODE CLEANER AN
               THE PROGRAM WAS COMPILED USING GCC v5.4 AND REQUIRES THE C++11 STANDARD TO COMPILE
 
 Use & Function:
-    To use the program, simply run the program (from cmd or terminal), and press enter after the array has loaded
+    To use the program, run it from the terminal (or cmd), enter the desired number of cycles you would like to run,
+    Then decide whether you would  like the program to wait for a key press between each cycle.
     To exit the program: Complete the number of cycles entered (10 by default) or close the cmd or terminal
     This program was written to simulate a "basic" predator prey scenario.
         The scenario runs on a basic 2D landscape divided into 20 "tiles"
