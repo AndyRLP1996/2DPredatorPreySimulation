@@ -44,6 +44,17 @@ int main()
     dooCount=0;
     timeCount=0;
     OrganismPtr dooTemp, AntTemp, linker;
+
+    //ADDED AFTER INITIAL ASSIGNMENT SUBMISSION!!!!
+    int finalTime=10;
+    cout<<"Please enter the number of cycles you would like to run: ";
+    cin>>finalTime;
+    if(finalTime<1)
+    {
+        finalTime=10;
+    }
+    //ADDED CONTENT ENDS!!!!!!
+
     for(int i=0;i<20;i++)
     {
         for(int j=0;j<20;j++)
@@ -100,6 +111,14 @@ int main()
         cout<<"the number of DoodleBugs is: "<<dooCount<<endl;
         cout<<"the number of Ants is: "<<AntCount<<endl<<endl;
         cin.ignore();
+
+        //ADDED AFTER INITIAL ASSIGNMENT SUBMISSION!!!!
+        if(timeCount==finalTime)
+        {
+            return 0;
+        }
+        //ADDED CONTENT ENDS!!!!!!
+
     }
 }
 

@@ -2,7 +2,7 @@ DISCLAIMER:   THIS CODE WAS ORIGINALLY AUTHORED BY ANDREW PARKHURST
               AS PART OF A HOMEWORK ASSIGNMENT FOR ENSC 251 AT SFU IN FALL 2017.
               PLEASE DO NOT MODIFY OR COPY THIS CODE            
 
-NOTE:         SOME CHANGES HAVE SINCE THE ASSIGNMENT TO MAKE THE CODE CLEANER AND EASIER TO READ OVERALL
+NOTE:         SOME CHANGES HAVE SINCE THE ASSIGNMENT TO MAKE THE CODE CLEANER AND EASIER TO READ AND USE OVERALL
               INCLUDING REMOVING SOME COMMENTS PRESENT FOR THE MARKERS AND SEPERATING THE CODE INTO MULTIPLE FILES
               AND MAKING CHANGES TO THE MAKEFILE
               THE OVERALL FUNCTIONALITY OF THE CODE HAS NOT BEEN CHANGED IN ANY WAY
@@ -10,7 +10,7 @@ NOTE:         SOME CHANGES HAVE SINCE THE ASSIGNMENT TO MAKE THE CODE CLEANER AN
 
 Use & Function:
     To use the program, simply run the program (from cmd or terminal), and press enter after the array has loaded
-    To exit the program: close the cmd or terminal
+    To exit the program: Complete the number of cycles entered (10 by default) or close the cmd or terminal
     This program was written to simulate a "basic" predator prey scenario.
         The scenario runs on a basic 2D landscape divided into 20 "tiles"
         Only 1 creature can occupy a tile at a time
@@ -25,4 +25,3 @@ Use & Function:
             if an adjacent tile contains an ant, they will move to that one
             otherwise they will move to a random unoccupied tile
         The ants will only move to unoccupied tiles (chosen randomly)
-        
